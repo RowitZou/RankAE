@@ -75,11 +75,11 @@ Each json file is a data list that includes chat log samples. The format of a ch
 	  |
 	  |--- chinese_bert
 	     |
-		 |--- config.json
-		 |
-		 |--- pytorch_model.bin
-		 |
-		 |--- vocab.txt
+	     |--- config.json
+	     |
+	     |--- pytorch_model.bin
+	     |
+	     |--- vocab.txt
 	```
 
 * Data Processing
