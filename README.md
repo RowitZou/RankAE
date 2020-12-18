@@ -33,7 +33,7 @@ Each json file is a data list that includes chat log samples. The format of a ch
 	 "type": "b2c"}, 
     {"content": ["165", "cm", "and", "55", "kg"],
 	 "type": "c2b"}, 
-	{"content": ["well", ",", "size", "m", "suits", "you"],
+    {"content": ["well", ",", "size", "m", "suits", "you"],
 	 "type": "b2c"}
  ],
  "summary": ["the", "user", "wants", "to", "buy", "a", "skirt", ".", "size", "m", "suits", "people", "of", "165", "cm", "and", "55", "kg", "."]
@@ -50,9 +50,9 @@ Each json file is a data list that includes chat log samples. The format of a ch
 	 "type": "c2b"}, 
     {"content": ["满", "300", "元", "包", "邮"],
 	 "type": "b2c"}, 
-	{"content": ["我", "下", "单", "了", "，", "什", "么", "时", "候", "发", "货"],
+    {"content": ["我", "下", "单", "了", "，", "什", "么", "时", "候", "发", "货"],
 	 "type": "c2b"},
-	{"content": ["明", "天"],
+    {"content": ["明", "天"],
 	 "type": "b2c"}
  ],
  "summary": ["商", "品", "明", "天", "发", "顺", "丰", "，", "满", "300", "元", "包", "邮", "。"]
@@ -67,6 +67,20 @@ Each json file is a data list that includes chat log samples. The format of a ch
 	
 	* Chinese BERT: https://github.com/ymcui/Chinese-BERT-wwm
 	* English BERT: https://github.com/google-research/bert
+
+	Put BERT checkpoints into the directory **bert** like this:
+
+	```
+	--- bert
+	  |
+	  |--- chinese_bert
+	     |
+		 |--- config.json
+		 |
+		 |--- pytorch_model.bin
+		 |
+		 |--- vocab.txt
+	```
 
 * Data Processing
 
@@ -93,4 +107,7 @@ Each json file is a data list that includes chat log samples. The format of a ch
 		               
 ## Data
 
-Data in the json format will be released soon.
+Our chat log dataset is collected from [Taobao](https://www.taobao.com/), where conversations take place between customers and merchants in the Chinese language. For the security of private information from customers, we performed the data desensitization and converted words to IDs.
+
+The desensitized data is available at 
+[Google Drive](https://drive.google.com/file/d/1DZalpN2uKer9oiR8xjaL2nj3p1jFaGGj/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1570uHnC-bxs2kYYRoWG7SA) (extract code: 4298).
