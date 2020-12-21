@@ -107,7 +107,7 @@ Each json file is a data list that includes chat log samples. The format of a ch
 		               
 ## Data
 
-Our chat log dataset is collected from [Taobao](https://www.taobao.com/), where conversations take place between customers and merchants in the Chinese language. For the security of private information from customers, we performed the data desensitization and converted words to IDs.
+Our chat log dataset is collected from [Taobao](https://www.taobao.com/), where conversations take place between customers and merchants in the Chinese language. For the security of private information from customers, we performed the data desensitization and converted words to IDs. As a result, the data cannot be directly used in our released codes and other pre-trained models like BERT, but the dataset still provides some statistical information.
 
 The desensitized data is available at 
 [Google Drive](https://drive.google.com/file/d/1DZalpN2uKer9oiR8xjaL2nj3p1jFaGGj/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1570uHnC-bxs2kYYRoWG7SA) (extract code: 4298).
