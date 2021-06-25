@@ -1,6 +1,6 @@
 # RankAE
 
-Pytorch implementation of the AAAI-2021 paper: [Unsupervised Summarization for Chat Logs with Topic-Oriented Ranking and Context-Aware Auto-Encoders](https://arxiv.org/pdf/2012.07300).
+Pytorch implementation of the AAAI-2021 paper: [Unsupervised Summarization for Chat Logs with Topic-Oriented Ranking and Context-Aware Auto-Encoders](https://ojs.aaai.org/index.php/AAAI/article/view/17724/17531).
 
 The code is partially referred to https://github.com/nlpyang/PreSumm.
 
@@ -111,3 +111,17 @@ Our chat log dataset is collected from [Taobao](https://www.taobao.com/), where 
 
 The desensitized data is available at 
 [Google Drive](https://drive.google.com/file/d/1DZalpN2uKer9oiR8xjaL2nj3p1jFaGGj/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1570uHnC-bxs2kYYRoWG7SA) (extract code: 4298).
+
+## Citation
+
+	@article{Zou_Lin_Zhao_Kang_Jiang_Sun_Zhang_Huang_Liu_2021,
+		 title={Unsupervised Summarization for Chat Logs with Topic-Oriented Ranking and Context-Aware Auto-Encoders},
+		 volume={35},
+		 url={https://ojs.aaai.org/index.php/AAAI/article/view/17724},
+		 number={16},
+		 journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+		 author={Zou, Yicheng and Lin, Jun and Zhao, Lujun and Kang, Yangyang and Jiang, Zhuoren and Sun, Changlong and Zhang, Qi and Huang, Xuanjing and Liu, Xiaozhong},
+		 year={2021},
+		 month={May},
+		 pages={14674-14682}
+		}
